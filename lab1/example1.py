@@ -1,6 +1,10 @@
-side1 = float(input("Input first side: "))
-side2 = float(input("Input second side: "))
+speed1 = 80 / 60  #kilometers per second
+speed2 = 70 / 60  #kilometers per second
 
-hypotenuse = (side1 ** 2 + side2 ** 2) ** 0.5
+distance = 490-150  #total distance of movement
+sum_speed = speed1 + speed2 
 
-print("Hypotenuse is ", hypotenuse)
+answer = distance / sum_speed
+
+print(answer)
+
