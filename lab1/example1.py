@@ -1,4 +1,6 @@
-celcius = float(input("Input celcius value: "))
+side1 = float(input("Input first side: "))
+side2 = float(input("Input second side: "))
 
-fahrenheit = celcius * 1.8 +32
-print(fahrenheit)
+hypotenuse = (side1 ** 2 + side2 ** 2) ** 0.5
+
+print("Hypotenuse is ", hypotenuse)
