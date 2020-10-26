@@ -1,4 +1,4 @@
-from math import sqrt
+
 
 a = int(input("a = "))
 b = int(input("b = "))
@@ -14,8 +14,8 @@ elif d == 0:
   print("x1 =", x1)
 
 else:
-  x1_nominator = -b + sqrt(d)
-  x2_nominator = -b - sqrt(d)
+  x1_nominator = -b + d**0.5
+  x2_nominator = -b - d**0.5
 
   x1 = x1_nominator / denominator
   x2 = x2_nominator / denominator
