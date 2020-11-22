@@ -1,0 +1,4 @@
+input the value of LOW
+input the value of HIGH
+for i in (LOW, HIGH + 1):
+  print squared i 

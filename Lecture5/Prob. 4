@@ -1,0 +1,9 @@
+input LOW
+input HIGH
+input NUMBER
+
+
+for i in range(LOW, HIGH +1):
+  if i MOD NUMBER equals to 0:
+    print i
+  

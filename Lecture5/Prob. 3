@@ -1,0 +1,8 @@
+Same as Prob. 2
+
+input the value of LOW
+input the value of HIGH
+create a variable sum = 0
+for i in range(LOW, HIGH + 1):
+  add i to sum: sum = sum + i
+print sum
