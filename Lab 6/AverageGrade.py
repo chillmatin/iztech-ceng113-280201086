@@ -10,3 +10,6 @@ for i in grades:
   averages.append(average)
   sum = 0
 print(averages)
+
+
+print("this is for testing Visual Studio Code")
