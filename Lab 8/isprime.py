@@ -6,4 +6,7 @@ def is_prime(number):
     
     return prime
 
-print(is_prime(11))
+def print_primes_between(a, b):
+  for i in range(a,b):
+    if is_prime(i):
+      print(i)
